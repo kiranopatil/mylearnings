@@ -2,7 +2,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 ## BASICS	##
 
 file_name.sh 		# Script extension 
-			# [".sh" for sh or bash shell, if Zsh or csh it should be ".zsh" or ".csh"]
+			# [".sh" for sh or bash shell and ".zsh" for Zsh Shell, ".csh" for Csh Shell]
 
 chmod 755 file_name.sh  # To run script it should be having executable permissions
 
