@@ -1,0 +1,2 @@
+# mylearnings
+Quick Notes
