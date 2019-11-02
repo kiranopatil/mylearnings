@@ -51,7 +51,8 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
       * When there are modified files which are under git control, and you don't want to commit now ( as wanna go for 
       a movie or shift over or need to shutdown computer or want to switch to a diff branch) then you need to move those 
       files to stash.
-      * 
+      * Before any push to remote repository first do git pull and then git push.
+      [git pull will help to check if any modifcations to the preivously pulled source code/files]
       
 ## Areas in GIT ## 
 
