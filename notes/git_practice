@@ -1,0 +1,13 @@
+## Version of GIT
+git --version
+
+## List Global GIT Configuration
+git config --global --list
+
+## List list GIT Configuration 
+git config --local --list [Note: --local can only be used inside a git repository]
+
+## List GIT Configuration (local, global and other settings)
+git config --list
+
+## 
