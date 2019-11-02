@@ -16,6 +16,9 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
       SVN - Sub Version
       DVCS -
       RCS - Revision Control Systems
+
+## To Know ## 
+      git checkout (to modify) and checkin (to release the file)
       
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -26,9 +29,14 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
       * GIT Supports GUI and CLI 
       * GIT Vs GITHUB - Git is an open-source tool..developers install locally to manage source code, 
       while GitHub is an online service to which developers who use Git can connect and upload or download resources.
+
 ## GIT Downloads ##
       https://git-scm.com
       https://gitforwindows.org/
+
+## In GIT CLI we can create alias for lengthy commands
+## Two ways to start with working on GIT repository
+
 ## Reference URL's ##
 ## Reference Video URL's ##
 ## Reference Books ##
