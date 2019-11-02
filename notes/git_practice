@@ -26,7 +26,9 @@ git <command> --help
 Eg: git help config or git config --help 
 
 # Two ways to start with working on GIT repository: 
-  Initialize repository from existing code
+  * Initialize repository from existing code
+  * Cloning a remote repository
+  1) Initialize repository from existing code
     cd /dir/repo
     touch a index.html
     ls -la
@@ -40,9 +42,24 @@ Eg: git help config or git config --help
     touch .gitignore 
         [.gitignore will let GIT to ignore the files/deirectory that are not required for tracking
          Eg: logfiles, trace files, Python/C object files, .pyc files.. etc..]
-    git add .
+    git add .  [add all in the current directory]
+    git add -A [Add everything to staging area]
+    git status
+    git commit -m "Message" 
+    git status
     
-    
-  
+ 2) Cloning a remote repository
+    git clone <url> <where_to_clone>
+    Eg1: git clone ../remote_repo.git . 
+    Eg2: git clone https://github.com/CoreyMSchafer/remote_repo.git . 
+   git diff
+   git add -A 
+   git commit -m "Msg"
+   git pull origin master
+   git push origin master
+   origin - is the name of remote repository 
+   master - is the branch name we want to push to 
+   
+   
   
   
