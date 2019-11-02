@@ -36,6 +36,12 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 ## In GIT CLI we can create alias for lengthy commands
 ## Two ways to start with working on GIT repository
+        [git init command - Initializing repository to track file/directories init]
+        [Note: .git directory/folder gets created] 
+        [Note: removal of .git folder will remove version controlling and tracking, It's better to backup this folder on regular basis]
+        [Note: If you want to remove a repository out of GIT control, remove the .git folder/directory]
+        [.gitignore in repository will let GIT to ignore the files/deirectory that are not required for tracking
+         Eg: logfiles, trace files, Python/C object files, .pyc files.. etc..]
 
 ## Reference URL's ##
 ## Reference Video URL's ##
