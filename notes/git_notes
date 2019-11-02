@@ -6,9 +6,10 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 ## Version Control Systems Types and Popular Softwares ##     
       There are 3 Types of Version Control Systems
-      * Distributed Version Control Systems[DVCS]: Git, BitKeeper, Mercurial, Bazaar or Darcs ...
-      * Centralized Version Control Systems[CVCS]: SubVersion(SVN), CVS, Preforce..
       * Localized Version Control Systems: RCS, 
+      * Centralized Version Control Systems[CVCS]: SubVersion(SVN), CVS, Preforce..
+      * Distributed Version Control Systems[DVCS]: Git, BitKeeper, Mercurial, Bazaar or Darcs ...
+
 
 ## Abbrevations ##
       SCM - Source Code Management
