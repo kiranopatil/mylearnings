@@ -44,6 +44,29 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
         [.gitignore in repository will let GIT to ignore the files/deirectory that are not required for tracking
          Eg: logfiles, trace files, Python/C object files, .pyc files.. etc..]
 
+## GIT Rules - by Veeru ## 
+      * create .gitignore file immediately after executing git init command 
+      * Always group the file(s) related to a feature/group as a single commit
+      * Never commit half modified work of source code (files)
+      * When there are modified files which are under git control, and you don't want to commit now ( as wanna go for 
+      a movie or shift over or need to shutdown computer or want to switch to a diff branch) then you need to move those 
+      files to stash.
+      * 
+      
+## Areas in GIT ## 
+
+      STASH || Working Area / Working Directory || Staging Area/Index Area || Local Repository || Remote Repository|| 
+            ||                                  ||                         || .git             ||                  ||
+            
+      STASH: git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on 
+      something else, and then come back and re-apply them later on.
+      WORKING AREA/DIRECTORY: Repositories created with the git init command are called working directories. ... 
+      A .git subfolder with all the git related revision history of your repo A working tree, or 
+      checked out copies of your project files. Repositories created with git init --bare are called bare repos.
+      STAGING/INDEX AREA: 
+      LOCAL(.git) REPOSITORY:
+      REMOTE REPOSITORY: 
+      
 ## Reference URL's ##
 ## Reference Video URL's ##
 ## Reference Books ##
