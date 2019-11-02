@@ -10,4 +10,39 @@ git config --local --list [Note: --local can only be used inside a git repositor
 ## List GIT Configuration (local, global and other settings)
 git config --list
 
-## 
+## Download GIT from https://git-scm.com/
+
+## Initial Configuration after installing GIT 
+Notes: This is required for keep track of who did checkin and code changes.
+
+git config --global user.name "Veer Murala"
+git config --global user.email "xoxx@gmail.com"
+git config --list 
+
+## Getting Help
+git help <command>
+git <command> --help 
+
+Eg: git help config or git config --help 
+
+# Two ways to start with working on GIT repository: 
+  Initialize repository from existing code
+    cd /dir/repo
+    touch a index.html
+    ls -la
+    git init 
+        [git init command - Initializing repository to track file/directories init]
+    ls -la 
+        [Note: .git directory/folder gets created] 
+        [Note: removal of .git folder will remove version controlling and tracking, It's better to backup this folder on regular basis]
+        [Note: If you want to remove a repository out of GIT control, remove the .git folder/directory]
+    git status
+    touch .gitignore 
+        [.gitignore will let GIT to ignore the files/deirectory that are not required for tracking
+         Eg: logfiles, trace files, Python/C object files, .pyc files.. etc..]
+    git add .
+    
+    
+  
+  
+  
