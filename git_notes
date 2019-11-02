@@ -1,20 +1,34 @@
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 ## What is Version Control System ##
 
+## Main purpose of VCS ##
+
+
 ## Version Control Systems Types and Popular Softwares ##     
       There are 3 Types of Version Control Systems
-      * Distributed Version Control Systems[DVCS]: Git, Mercurial, Bazaar or Darcs ...
+      * Distributed Version Control Systems[DVCS]: Git, BitKeeper, Mercurial, Bazaar or Darcs ...
       * Centralized Version Control Systems[CVCS]: SubVersion(SVN), CVS, Preforce..
-      * Localized Version Control Systems:  
+      * Localized Version Control Systems: RCS, 
+
+## Abbrevations ##
+      SCM - Source Code Management
+      VCS - Version Control Systems
+      SVN - Sub Version
+      DVCS -
+      RCS - Revision Control Systems
+      
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 ## About GIT ##
       * It's a "Distributed Version(Revision) Control Systems VCS"
       * Developed by Linus Torvals for Kernel Development.
-      * GIT is opensource 
-      * GIT works offline 
+      * GIT is opensource, works offline
+      * GIT Supports GUI and CLI 
       * GIT Vs GITHUB - Git is an open-source tool..developers install locally to manage source code, 
       while GitHub is an online service to which developers who use Git can connect and upload or download resources.
-      
+## GIT Downloads ##
+      https://git-scm.com
+      https://gitforwindows.org/
 ## Reference URL's ##
 ## Reference Video URL's ##
 ## Reference Books ##
