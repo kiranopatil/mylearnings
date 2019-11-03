@@ -4,10 +4,13 @@ git --version
 ## List Global GIT Configuration
 git config --global --list
 
-## List list GIT Configuration 
+## List local GIT Configuration 
 git config --local --list [Note: --local can only be used inside a git repository]
 
-## List GIT Configuration (local, global and other settings)
+## list system GIT Configuration
+git config --system --list
+
+## List GIT Configuration (local, global and system settings)
 git config --list
 
 ## Download GIT from https://git-scm.com/
@@ -25,6 +28,9 @@ git <command> --help
 
 Eg: git help config or git config --help 
 
+Repositories: Bare, Local, Remote
+Reposiotry Initialization: 
+
 # Two ways to start with working on GIT repository: 
   * Initialize repository from existing code
   * Cloning a remote repository
@@ -32,7 +38,8 @@ Eg: git help config or git config --help
     cd /dir/repo
     touch a index.html
     ls -la
-    git init 
+    git init or git init <path_to_dir>
+        if <path_to_dir> directory doesn't exist it will create a new directory.
         [git init command - Initializing repository to track file/directories init]
     ls -la 
         [Note: .git directory/folder gets created] 
@@ -49,6 +56,8 @@ Eg: git help config or git config --help
     git status
     
  2) Cloning a remote repository
+    git clone is used to create a copy of an existing repository,
+    Internally, git clone first calls git init to create a new repository. It then copies the data from the existing repository
     git clone <url> <where_to_clone>
     Eg1: git clone ../remote_repo.git . 
     Eg2: git clone https://github.com/CoreyMSchafer/remote_repo.git . 
@@ -59,7 +68,16 @@ Eg: git help config or git config --help
    git push origin master
    origin - is the name of remote repository 
    master - is the branch name we want to push to 
-   
+  3) Other is Bare repositories 
+   git init --bare 
+   Bare repository doesn't allow any commits or edits. most common use case for  git init --bare is to 
+   create a remote central repository. The --bare flag creates a repository that doesn’t have a working directory.
+   You would create a bare repository to git push and git pull from, but never directly commit to it.
+   --bare command doesn't have .git folder created, but the subdirectories and files are created. 
+
+## git init templates ## 
+  git init <directory> --template=<template_directory>
+  Initializes a new Git repository and copies files from the  <template_directory> into the repository.
    
   
   
