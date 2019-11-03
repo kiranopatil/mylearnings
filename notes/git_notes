@@ -53,6 +53,10 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
       files to stash.
       * Before any push to remote repository first do git pull and then git push.
       [git pull will help to check if any modifcations to the preivously pulled source code/files]
+      * Use git init --bare for central repositories, which doesn't allow commits, but allows only push n pull 
+      * If you've already run git init on a project directory and it contains a .git subdirectory, 
+      you can safely run git init again on the same project directory. It will not override an existing .git configuration.
+      * 
       
 ## Areas in GIT ## 
 
@@ -67,7 +71,8 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
       STAGING/INDEX AREA: 
       LOCAL(.git) REPOSITORY:
       REMOTE REPOSITORY: 
-      
+git amend (update) - is an update to a commit
+The --cached option is synonymous with --staged.
 ## Reference URL's ##
 ## Reference Video URL's ##
 ## Reference Books ##
