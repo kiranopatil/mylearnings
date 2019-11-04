@@ -22,6 +22,22 @@ git config --global user.name "Veer Murala"
 git config --global user.email "xoxx@gmail.com"
 git config --list 
 
+## Setting and unsetting variables ## 
+
+git config --global --list
+git config --global alias.hist "log --oneline --graph --decorate --all"
+git config --global --list
+git config --global --unset alias.hist 
+				[OR] 
+git config --global --edit [It opens an editor which is set for core.editor variable ]
+						   [If editor is not set you can set this way git config --global core.editor="C:\Program Files (x86)\Notepad++\notepad++.exe"]
+git config --global --list
+			
+## GIT Config file location## 
+git config information will stored in ~/.gitconfig in unix platform.
+In Windows it will be stored in C:/users/<NAME>/.gitconfig.
+
+    
 ## Getting Help
 git help <command>
 git <command> --help 
@@ -36,11 +52,12 @@ Reposiotry Initialization:
   * Cloning a remote repository
   1) Initialize repository from existing code
     cd /dir/repo
-    touch a index.html
     ls -la
     git init or git init <path_to_dir>
         if <path_to_dir> directory doesn't exist it will create a new directory.
         [git init command - Initializing repository to track file/directories init]
+        [If you have accidentally executed git init on currently controlled git repository, don't worry nothing will happen]
+        
     ls -la 
         [Note: .git directory/folder gets created] 
         [Note: removal of .git folder will remove version controlling and tracking, It's better to backup this folder on regular basis]
@@ -51,6 +68,7 @@ Reposiotry Initialization:
          Eg: logfiles, trace files, Python/C object files, .pyc files.. etc..]
     git add .  [add all in the current directory]
     git add -A [Add everything to staging area]
+    Check  "Corey Schafer" youtube channel
     git status
     git commit -m "Message" 
     git status
