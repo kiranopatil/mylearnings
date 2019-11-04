@@ -79,15 +79,17 @@ Reposiotry Initialization:
     git clone <url> <where_to_clone>
     Eg1: git clone ../remote_repo.git . 
     Eg2: git clone https://github.com/CoreyMSchafer/remote_repo.git . 
+    Eg3: $ git clone https://github.com/veeren2coder/mylearnings.git demo2
    git diff
    git add -A 
    git commit -m "Msg"
    git pull origin master
    git push origin master
+   git fetch 
    origin - is the name of remote repository 
    master - is the branch name we want to push to 
   3) Other is Bare repositories 
-   git init --bare 
+   git init --bare demo2
    Bare repository doesn't allow any commits or edits. most common use case for  git init --bare is to 
    create a remote central repository. The --bare flag creates a repository that doesn’t have a working directory.
    You would create a bare repository to git push and git pull from, but never directly commit to it.
