@@ -57,6 +57,10 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
       * If you've already run git init on a project directory and it contains a .git subdirectory, 
       you can safely run git init again on the same project directory. It will not override an existing .git configuration.
       * 
+## Fetch Vs Pull in Cloned repository ## 
+      * git fetch is similar to pull but doesn't merge. i.e. it fetches remote updates ( refs and objects ) but your 
+      local stays the same (i.e. origin/master gets updated but master stays the same) . git pull pulls down from a 
+      remote and instantly merges. git clone clones a repo.
       
 ## Areas in GIT ## 
 
@@ -75,6 +79,8 @@ git amend (update) - is an update to a commit
 The --cached option is synonymous with --staged.
 
 ## Reference URL's ##
+https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull
+
 ## Reference Video URL's ##
 ## GIT by  Corey Schafer
 ## https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx
