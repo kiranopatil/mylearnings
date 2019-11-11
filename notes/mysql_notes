@@ -27,6 +27,56 @@ SELECT * FROM sql_store.customers;
 FROM
 WHERE
 ORDER BY 
+LIMIT 
     Also it's i better to keep each of the Clauses in a newline while writing SQL statements
     
-##  
+## DISTINCT - Use it when you want to remove duplicates from columns
+## SELECT Clause - COLUMN_Name, COLUMN_Name2
+## FROM Clause - TABLE_Name
+## WHERE Clause - CONDITION on COLUMN or to FILTER data 
+## ORDER BY Clause - Sorting results on COLUMN
+## LIMIT Clause - limit no. of records
+
+## USE "AS" for an alias for a column that doesn't exist or the one that exist. 
+
+## ARITHMETIC Operators [Comes under SELECT, WHERE clause to manipulate or filter data]
+* / + - [In order]
+
+## Operator precedence can be used using ()
+
+## COMPARISION Operators [Comes under WHERE clause with coniditions to filter data]
+> >= < <= = != 
+Alternate for != is <> 
+
+## LOGICAL Operators [Comes under WHERE clause with multiple coniditions to filter data]
+AND OR NOT [In order]
+
+IN (List of values/date)
+BETWEEN (range of Values/date)
+LIKE (Specific Pattern in Columes) ; I'ts almost obsolete and REGEXP is replacement for it 
+    % indicates any no.of characters
+    _ indicates a single character 
+    
+REGEXP - Pattern Matching
+    ^ Starting character 
+    $ Ending character 
+    | Multiple pattern logical OR 
+    [] pattern matching either of the characters listed in []
+        '[gh]e' matches ge or he 
+        '[a-f]e' its a range and matches ae, be, ce, de, fe.
+        
+IS NULL - Empty Field and 
+IS NOT NULL - Reverse of above 
+ORDER BY - Sorting
+LIMIT - limit no.of records from our query
+DESC -Descending Order
+
+## SQL STATEMENTS To REFER
+SELECT 	* FROM Customers WHERE birth_date > '1990-01-01'
+SELECT 	* FROM products WHERE quantity_in_stock IN (49, 38, 72)3
+SELECT 	* FROM customers WHERE points BETWEEN 1000 AND 3000
+SELECT 	* FROM customers WHERE last_name LIKE 'b%'
+SELECT 	* FROM customers WHERE last_name LIKE '%b%'
+SELECT 	* FROM customers WHERE last_name REGEXP '^field|mac|rose'
+SELECT  * FROM customers ORDER BY first_name 
+SELECT  * FROM customers ORDER BY first_name DESC 
