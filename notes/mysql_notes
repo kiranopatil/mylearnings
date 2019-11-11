@@ -1,0 +1,32 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Mysql - Opensource Server DB by Oracle
+It is a Relational Database Management System.
+Uses SQL (Structured Query Language)
+
+## Tools
+MYSQL Workbench is an GUI Tool for Managing DB
+
+## Comment a line 
+--
+
+## Notes about SQL
+It omits newlines, multiple white spaces, tab spaces are ignored while executing SQL statements... 
+
+## Select a DB
+USE DB_name; 
+
+## Execute Multiple sql statements ? then use semicolon
+USE DB_name; 
+SELECT * FROM TABLE_name;
+OR
+SELECT * FROM DB_name.TABLE_name;
+SELECT * FROM sql_store.customers; 
+
+## Order of Clauses (top-down), you cannot the change the order of clauses
+FROM
+WHERE
+ORDER BY 
+    Also it's i better to keep each of the Clauses in a newline while writing SQL statements
+    
+##  
