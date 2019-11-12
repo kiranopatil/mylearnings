@@ -71,6 +71,41 @@ ORDER BY - Sorting
 LIMIT - limit no.of records from our query
 DESC -Descending Order
 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+## INSERT a row
+INSERT INTO customers
+VALUES ( 
+    DEFAULT, 
+    'John', 
+    'Smith', 
+    '1990-01-01', 
+     NULL,
+     'address',
+     'city',
+     'CA',
+     DEFAULT)
+## OR 
+INSERT INTO customers (
+    last_name,
+    first_name,
+    birth_date,
+    address,
+    city,
+    state)
+VALUES ( 
+    'John', 
+    'Smith', 
+    '1990-01-01', 
+     'address',
+     'city',
+     'CA')
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+## Insert Multiple rows
+INSERT INTO shippers (name) 
+VALUES  ('Shipper1'),
+        ('Shipper2'),
+        ('Shipper3')
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$        
 ## SQL STATEMENTS To REFER
 SELECT 	* FROM Customers WHERE birth_date > '1990-01-01'
 SELECT 	* FROM products WHERE quantity_in_stock IN (49, 38, 72)3
