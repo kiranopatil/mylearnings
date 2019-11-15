@@ -1,0 +1,12 @@
+URL: https://www.chef.io/
+
+Chef is an automation tool that provides a way to define infrastructure as code. Infrastructure as code (IAC) 
+simply means that managing infrastructure by writing code (Automating infrastructure) rather than using manual processes.
+Chef uses a pure-Ruby, domain-specific language (DSL) for writing system configurations.
+
+Chef has a Client-Server architecture. But Chef has an extra component called Workstation
+
+
+
+## Reference URLs ##
+https://www.edureka.co/blog/what-is-chef/
