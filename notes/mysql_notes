@@ -27,6 +27,7 @@ SELECT * FROM sql_store.customers;
 FROM
 WHERE
 ORDER BY 
+HAVING - to be used as a WHERE for GROUP BY.
 LIMIT 
     Also it's i better to keep each of the Clauses in a newline while writing SQL statements
     
