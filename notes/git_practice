@@ -30,8 +30,17 @@ git config --global --list
 git config --global --unset alias.hist 
 				[OR] 
 git config --global --edit [It opens an editor which is set for core.editor variable ]
-						   [If editor is not set you can set this way git config --global core.editor="C:\Program Files (x86)\Notepad++\notepad++.exe"]
+		           [If editor is not set you can set this way git config --global core.editor="C:\Program Files (x86)\Notepad++\notepad++.exe"]
 git config --global --list
+
+Eg:
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+
+$ git st 
+$ git br
 			
 ## GIT Config file location## 
 git config information will stored in ~/.gitconfig in unix platform.
