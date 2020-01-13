@@ -15,3 +15,10 @@ Tested in VSCode and Sublimetext
      * Donot start on a new line 
         * Take only necessary width 
         * `Eg: <span>, <img>,<a> `
+
+* Tag Attributes: <tagname attributename="attributevalue">content</tagname>
+	`<h1 title="My Company">About Us</h1>
+	* All tags can have attributes
+	* Provide information about an element
+	* Placed within the start tag
+	* key/value pairs (id="someid")
