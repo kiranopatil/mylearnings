@@ -17,7 +17,7 @@ Tested in VSCode and Sublimetext
         * `Eg: <span>, <img>,<a> `
 
 * Tag Attributes: <tagname attributename="attributevalue">content</tagname>
-	`<h1 title="My Company">About Us</h1>
+	`<h1 title="My Company">About Us</h1>`
 	* All tags can have attributes
 	* Provide information about an element
 	* Placed within the start tag
