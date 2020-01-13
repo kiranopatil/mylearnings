@@ -6,11 +6,11 @@ Tested in VSCode and Sublimetext
   Eg: lorem <tab>
       lorem200 <tab
  * Block Vs Inline elements
-                    * Block : 
-                        * Start on a new line
-                        * Take full width available
-                    Eg: <div>, <h1>..<h6>, <p>, <form>
-                    * Inline : 
-                        * Donot start on a new line 
-                        * Take only necessary width 
-                    Eg: <span>, <img>,<a> 
+       * Block : 
+            * Start on a new line
+            * Take full width available
+            * Eg: <div>, <h1>..<h6>, <p>, <form>
+       * Inline : 
+            * Donot start on a new line 
+            * Take only necessary width 
+            * Eg: <span>, <img>,<a> 
