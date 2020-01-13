@@ -1,5 +1,6 @@
 # HTML 
-* most of the editors come with tag autofilling..Eg: type html and press tab .. you will get <html> </html> 
+* most of the editors come with tag autofilling..
+    * Eg: type html and press tab .. you will get <html> </html> 
 Tested in VSCode and Sublimetext
 * In Browser to use Developer tool Press F12 or Ctrl + Shift + C (Windows)
 * To generate dummy text one can use "lorem" tab to fill text.. most text editors supoort it.. Tested in VSCODE and sublime text.
