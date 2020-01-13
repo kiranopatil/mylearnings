@@ -22,3 +22,22 @@ Tested in VSCode and Sublimetext
 	* Provide information about an element
 	* Placed within the start tag
 	* key/value pairs (id="someid")
+* Table syntax:
+	```HTML
+	<table>
+    <thead>
+        <tr>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                
+            </td>
+        </tr>
+    </tbody>
+	</table>
+	```
