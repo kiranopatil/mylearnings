@@ -9,8 +9,8 @@ Tested in VSCode and Sublimetext
     * Block : 
         * Start on a new line
         * Take full width available
-        * Eg: <div>, <h1>..<h6>, <p>, <form>
+        * `Eg: <div>, <h1>..<h6>, <p>, <form>`
  * Inline : 
      * Donot start on a new line 
         * Take only necessary width 
-        * Eg: <span>, <img>,<a> 
+        * `Eg: <span>, <img>,<a> `
