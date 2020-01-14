@@ -18,6 +18,7 @@
  -->
 
 <!-- Headings use # to ###### (1to6) --> 
+> Headings H1 to H6
 
 # Heading1
 ## Heading2
