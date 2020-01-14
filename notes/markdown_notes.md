@@ -28,6 +28,7 @@
 ###### Heading6
 
 <!-- Italics use * or _ --> 
+> Italics use * or _ without space
 
 *This text is italics*
 
@@ -36,6 +37,7 @@ _This text is italics_
 <!--Note: There should not be any space between the text and * or _ in the start and end -->
 
 <!-- Bold use ** or __ --> 
+> Bold use ** or __ without space
 
 **This is bold** 
 
@@ -44,21 +46,23 @@ __This is bold__
 <!--Note: There should not be any space between the text and * or _ in the start and end -->
 
 <!-- Strikethrough use ~~ --> 
+> Strikethrough ~~
 
 ~~This is strikethrough~~
 
 <!--Note: There should not be any space between the text and ~~ in the start and end -->
 
 <!-- Horizontal Lines --- or ___ -->
-
+> Horizontal Lines --- or ___
 ---
 ___
 
 <!-- Printing Escape Characters use \ -->
-
+> Printing Escape Characters use \ 
 \*\*test**
 
 <!-- Block Quote use > -->
+> Block Quote use > 
 
 > This is a quote
 
