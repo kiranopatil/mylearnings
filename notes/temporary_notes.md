@@ -76,3 +76,7 @@ Tested in VSCode and Sublimetext
 
 * Semantic element clearly describes its meaning to both the browser and the developer.
 * `Eg: <header></header> <footer><footer> <aside></aside><main></main><article></article><nav></nav><section></section> <details></details>`
+
+## HTML 5 Meta tag:
+* Available in header 
+
