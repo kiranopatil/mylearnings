@@ -50,7 +50,8 @@ Tested in VSCode and Sublimetext
 		* name - Description
 		* textarea - 
 		* select - 
-			* Eg: ```<div>
+			* Eg: ```
+				<div>
 				<select name="gender">
 				<option value='male'>"Male"</option>
 				<option value='female'>"Female"</option>
@@ -58,16 +59,16 @@ Tested in VSCode and Sublimetext
 
 				</select>
 				</div>
-			     ```
+			       ```
 		* date
 		* placeholder
 		* value
 		* submit
 * Buttons outside the form is possible
-	* <button>text</button>
+	* `<button>text</button>`
 * Quotations:
 	* Blockqote - similar as <p> which gives more padding and format to text
 	* abbreviate - For abbrevation
-	*Eg: <p>The <abbr title="Wold Wide Web">WWW</abbr> is awsome </p?
+		* `Eg: <p>The <abbr title="Wold Wide Web">WWW</abbr> is awsome </p?`
 	* cite - is a semantic which gives italics test 
 	
