@@ -50,12 +50,12 @@ Tested in VSCode and Sublimetext
 		* name - Description
 		* textarea - 
 		* select - 
-			* Eg: ```
-				<div>
+			* Eg:  ```
+				div>
 				<select name="gender">
-				<option value='male'>"Male"</option>
-				<option value='female'>"Female"</option>
-				<option value=other>"other"</option>
+				    <option value='male'>"Male"</option>
+				    <option value='female'>"Female"</option>
+				    <option value=other>"other"</option>
 
 				</select>
 				</div>
