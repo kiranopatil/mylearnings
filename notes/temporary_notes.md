@@ -72,3 +72,7 @@ Tested in VSCode and Sublimetext
 		* `Eg: <p>The <abbr title="Wold Wide Web">WWW</abbr> is awsome </p?`
 	* cite - is a semantic which gives italics test 
 	
+## HTML 5 Semantic Tags: 
+
+* Semantic element clearly describes its meaning to both the browser and the developer.
+* `Eg: <header></header> <footer><footer> <aside></aside><main></main><article></article><nav></nav><section></section> <details></details>`
