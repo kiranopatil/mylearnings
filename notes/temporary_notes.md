@@ -41,3 +41,33 @@ Tested in VSCode and Sublimetext
     </tbody>
 	</table>
 	```
+* Forms: <form> </form>
+	* Following tags are allowed inside 
+	* <label></label> -> to display text
+	* <input></input> -> Diplay a input text box
+		* Attributes:
+		* type - type of text Eg: text, email, textarea, date
+		* name - Description
+		* textarea - 
+		* select - 
+			* Eg: ```<div>
+				<select name="gender">
+				<option value='male'>"Male"</option>
+				<option value='female'>"Female"</option>
+				<option value=other>"other"</option>
+
+				</select>
+				</div>
+			     ```
+		* date
+		* placeholder
+		* value
+		* submit
+* Buttons outside the form is possible
+	* <button>text</button>
+* Quotations:
+	* Blockqote - similar as <p> which gives more padding and format to text
+	* abbreviate - For abbrevation
+	*Eg: <p>The <abbr title="Wold Wide Web">WWW</abbr> is awsome </p?
+	* cite - is a semantic which gives italics test 
+	
